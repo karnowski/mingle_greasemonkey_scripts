@@ -1,4 +1,6 @@
 Adds "copy to clipboard" features to Mingle.
 
-Click to install:
-[mingle-clipboard-card-details.user.js](http://github.com/karnowski/mingle_greasemonkey_scripts/raw/master/mingle-clipboard-card-details.js)
+To install:
+* Copy the *.js file you want to *.user.js.
+* Open the current directory in Firefox.
+* Click on the file, and Greasemonkey should ask you to install the user script.

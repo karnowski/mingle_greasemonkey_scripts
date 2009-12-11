@@ -2,7 +2,7 @@
 // @name           Mingle Cut & Paste: Card List Page
 // @namespace      http://karnowski.github.com/greasemonkey
 // @description    Adds a button to quickly copy the selected Mingle cards' numbers & titles to your clipboard, one per line.
-// @include        https://mingle.*.tld/projects/*/cards/list
+// @include        https://mingle.*.tld/projects/*/cards/list*
 // @require        http://code.jquery.com/jquery-latest.min.js
 // ==/UserScript==
 
@@ -26,6 +26,6 @@
     // </object>';
 
     // $(html).appendTo("#card-short-description");
-    $("<div> Hey, I'm doing something!</div>").appendTo("#for-selected-actions");
+    $("<div> Hey, I'm doing something!</div>").appendTo(".for-selected-actions");
   });
 })(jQuery);

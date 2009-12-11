@@ -2,7 +2,8 @@
 // @name           Mingle Cut & Paste: Card Details Page
 // @namespace      http://karnowski.github.com/greasemonkey
 // @description    Adds a button to quickly copy the Mingle card's number & title to your clipboard.
-// @include        https://mingle.thinkrelevance.com/projects/zeus/cards/*
+// @include        /projects/*/cards/*
+// @exclude        /projects/*/cards/list
 // @require        http://code.jquery.com/jquery-latest.min.js
 // ==/UserScript==
 
